@@ -1,0 +1,231 @@
+body {
+        text-align: center;
+        font-family: verdana, arial, tahoma, sans-serif;
+        font-size: 11px;
+        color: #000;
+        background: #dcdcdc;
+        padding: 0;
+        margin: 15px 0 5px;
+}
+
+table {
+        font-family: verdana, arial, tahoma, sans-serif;
+        font-size: 11px;
+}
+
+table.content_table {
+	border-spacing: 4;
+	border-collapse: collapse;
+}
+table.userloc {
+	border-collapse: collapse;
+	height: 30px;
+}
+
+td {
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+td.auth-hdr {
+	width: 100px;
+        font-size: 13px;
+	font-weight: bold;
+	padding: 6px;
+}
+
+td.error {
+	color: red;
+}
+
+form {
+        margin: 0px;
+        padding: 0px;
+}
+
+img {
+        border: 0px;
+}
+
+ul {
+        margin: 0px;
+}
+
+#outer {
+        text-align: left;
+        background: #fcfefc;
+        color: inherit;
+        border: 1px solid #000000;
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+}
+
+#content {
+        padding: 5px 10px;
+        margin: 5px 0px 0px 0px;
+}
+
+a:link {
+/*        background: inherit; */
+        text-decoration: none;
+        color: blue;
+}
+
+a:visited {
+        background: inherit;
+        text-decoration: none;
+        color: blue;
+}
+
+a:hover {
+        background: inherit;
+        text-decoration: none;
+        color: blue;
+}
+
+a:active {
+        background: inherit;
+        text-decoration: none;
+        color: blue;
+}
+
+ul.topnav {
+        list-style: none;
+        padding: 0 10px;
+        margin: 0;
+        height: 35px;
+        background: #923222;
+}
+ul.topnav li {
+        float: left;
+        margin: 0;
+        padding: 0 15px 0 0;
+        position: relative;
+}
+
+ul.topnav li a{
+        padding: 10px 5px;
+        color: #fff;
+        font-weight: bold;
+        display: block;
+        text-decoration: none;
+        float: left;
+}
+ul.topnav li a:hover {
+        color: #555;
+}
+ul.topnav li a:visited {
+        color: #000000;
+        background: inherit;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+ul.searchOptions {
+	list-style: none;
+	float: left;
+	padding: 0 5px;
+	border-spacing: 4px;
+}
+
+.blockbody {
+    background: none no-repeat scroll 0 0 #FFFFFF;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.formcontrols {
+    border-bottom: 1px solid #6B91AB;
+    border-left: 1px solid #6B91AB;
+    border-right: 1px solid #6B91AB;
+    border-top: 1px solid #6B91AB;
+}
+
+.formcontrols .blocksubhead {
+    font-weight: bold;
+    background: none repeat-x scroll 0 0 #E9E9E9;
+    border-top: 1px solid #CECECE;
+    color: #3E3E3E;
+    padding: 4px 10px;
+}
+
+.formcontrols .section {
+    padding: 0 15px;
+}
+
+.formcontrols > *:first-child, .formcontrols .blocksubhead + .blockrow, .formcontrols .section .blockrow:first-child {
+    border-top: medium none;
+}
+
+.formcontrols .blockrow label {
+    float: left;
+    font-size: 15px;
+    width: 120px;
+}
+
+.floatcontainer, .formcontrols .blockrow, dl.stats {
+    display: block;
+}
+
+.blockfoot, .blocksubfoot {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none #66CC00;
+    clear: both;
+    display: block;
+    padding: 5px 0;
+}
+
+.group {
+    float: none;
+    padding: 0 10px;
+}
+
+tr.evenTR {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    height: 40px
+}
+
+tr.oddTR {
+    background-color: #EFF3F6;
+    border-collapse: collapse;
+    height: 40px
+}
+
+tr.rowOver {
+    background-color: #DFE5EB;
+    height: 40px
+}
+
+tr.tableHeader {
+    background: url('/images/gray.png');
+    font-weight: bold;
+    height: 30px
+}
+
+tr.top-align {
+    vertical-align: top;
+}
+
+.hidden-options {
+    display: none;
+}
+
+.rbutton {
+    background:  url('/images/gray.png');
+    -moz-box-sizing: content-box;
+    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 11px !important;
+    line-height: 13px;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+
+.error_input {
+	border: 1px solid red;
+}
+

@@ -1,0 +1,7 @@
+AuthUserFile /www/192.168.2.2/ssl/.htpasswd
+AuthType Basic
+AuthName "Please Authenticate"
+
+<LIMIT GET POST>
+require valid-user
+</LIMIT> 
